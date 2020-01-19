@@ -1,0 +1,59 @@
+#Guia basica para la utiizacion de vim
+
+##Comando basicos 
+
+	-i: comienza a introducir texto en la posicion actual del cursor
+
+	-l: Introduce el texto en la linea donde esta el cursor
+
+	-O: Inserta una linea en blanco en medio de la siguiente linea 
+
+	-o: Inserta una linea en blanco despues de lo que escribamos
+
+	-r: No posicionamos sobre un caracter que queramos sustituir y presionamos la tecla deseada 
+
+	-R: sobreescribe desde la posicion actual del cursor.
+
+	-x: elimina el caracter actual en la posicion del cursor
+
+	-X: elimina el siguiente caracter del cursor
+
+	-dd: corta la linea actual donde el cursor esta posicionado, (y lo copia)
+
+	-yy o Y : copia al completo la linea donde s encuentra el cursor
+
+	-P: copia la linea previa
+
+	-yy o Y : copia al completo la linea donde s encuentra el cursor
+
+	-P:Pega en la línea previa a la que nos encontremos el contenido del portapapeles
+
+	-p:Pega en la línea siguiente a la que nos encontremos el contenido del portapapeles
+
+	-.:Repite el último comando
+
+	-u:Deshace el último comando
+
+	-U:Deshace el último comando aplicado a la línea donde se encuentre el cursor
+
+	-n:Encuentra la siguiente coincidencia en una búsqueda
+
+	-N:Encuentra la coincidencia anterior en una búsqueda
+
+	-:n:En el caso de tener varios archivos abiertos a la vez, nos llevará al siguiente fichero.
+
+	-:N:En el caso de tener varios archivos abiertos a la vez, nos llevará al fichero previo. 
+ 
+	-H:Desplazamiento a la parte superior de la pantalla
+
+	-L:Desplazamiento a la parte inferior de la pantalla
+
+	-G:Nos lleva hasta el final del documento
+
+	-w:Desplazamiento una palabra a la derecha
+
+	-b:Desplazamiento una palabra a la izquierda
+
+	-0:Nos lleva hasta el inicio de la línea actual
+
+	-$:Nos lleva hasta el final de la línea actual 
